@@ -1,44 +1,85 @@
+import logo from "../assets/branding/logo-golden-hass.jpeg"
+
 function Hero() {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-[#F4FAF2] via-[#EEF8EB] to-white flex items-center justify-center px-6 pt-32 overflow-hidden">
+    <section className="px-6 pt-10">
+      <div className="max-w-7xl mx-auto">
 
-      <div className="max-w-5xl text-center relative">
+        <div className="relative overflow-hidden rounded-[45px] bg-gradient-to-br from-[#1F5C3F] via-[#2E7D57] to-[#57B487] px-8 py-24 text-white">
 
-        <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-green-200/30 blur-3xl rounded-full"></div>
+          {/* Brillos decorativos */}
+          <div className="absolute top-0 left-0 w-72 h-72 bg-white/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#8FFFC3]/10 rounded-full blur-3xl"></div>
 
-        <div className="relative z-10">
+          <div className="relative z-10 flex flex-col items-center text-center">
 
-          <p className="text-green-700 font-semibold mb-6 tracking-wide uppercase">
-            Golden Hass
-          </p>
+            {/* Logo */}
+            <img
+              src={logo}
+              alt="Golden Hass"
+              className="w-52 mb-8 drop-shadow-2xl"
+            />
 
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-[#1B4332] leading-tight">
-            Aguacates listos
-            <br />
-            cuando los necesitas.
-          </h1>
+            {/* Texto pequeño */}
+            <p className="uppercase tracking-[6px] text-sm text-[#D7FFE8] mb-6">
+              Golden Hass Bogotá
+            </p>
 
-          <p className="mt-8 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Sistema inteligente de maduración escalonada con garantía total,
-            menos desperdicio y entrega práctica para tu hogar.
-          </p>
+            {/* Título */}
+            <h1 className="text-5xl md:text-7xl font-black leading-tight max-w-5xl">
+              Convierte la compra
+              <br />
+              de aguacates en algo fácil.
+            </h1>
 
-          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+            {/* Subtexto */}
+            <p className="mt-8 text-lg md:text-2xl text-[#E8FFF3] max-w-3xl leading-relaxed">
+              Sistema inteligente de maduración escalonada,
+              menos desperdicio y aguacates listos exactamente
+              cuando los necesitas.
+            </p>
 
-            <button className="bg-[#2D6A4F] hover:bg-[#1B4332] text-white px-8 py-4 rounded-2xl font-semibold transition">
-              Pedir por WhatsApp
-            </button>
+            {/* Botones */}
+            <div className="flex flex-col sm:flex-row gap-5 mt-12">
 
-            <button className="border border-[#2D6A4F] text-[#2D6A4F] px-8 py-4 rounded-2xl font-semibold hover:bg-green-50 transition">
-              Conocer el sistema
-            </button>
+              <a
+                href="https://wa.me/573026304734"
+                target="_blank"
+                className="bg-white text-[#1F5C3F] px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition duration-300 shadow-2xl"
+              >
+                Pedir por WhatsApp
+              </a>
+
+              <a
+                href="#maduracion"
+                className="border border-white/40 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white hover:text-[#1F5C3F] transition duration-300"
+              >
+                Conocer el sistema
+              </a>
+
+            </div>
+
+            {/* Badges */}
+            <div className="flex flex-wrap justify-center gap-4 mt-14">
+
+              <div className="bg-white/10 backdrop-blur-md px-5 py-3 rounded-full border border-white/10">
+                🥑 15 unidades premium
+              </div>
+
+              <div className="bg-white/10 backdrop-blur-md px-5 py-3 rounded-full border border-white/10">
+                🚚 Domicilio gratis
+              </div>
+
+              <div className="bg-white/10 backdrop-blur-md px-5 py-3 rounded-full border border-white/10">
+                ✅ Calidad garantizada
+              </div>
+
+            </div>
 
           </div>
-
         </div>
 
       </div>
-
     </section>
   )
 }
