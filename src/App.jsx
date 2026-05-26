@@ -13,6 +13,7 @@ import CTA from "./sections/CTA"
 import FAQ from "./sections/FAQ"
 import Maduracion from "./sections/Maduracion"
 import BeneficiosPremium from "./sections/BeneficiosPremium"
+import Galeria from "./sections/Galeria"
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
       <Maduracion />
 
       <BeneficiosPremium />
+
+      <Galeria />
 
       <Semaforo />
 
