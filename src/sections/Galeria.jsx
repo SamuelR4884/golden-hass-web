@@ -39,7 +39,7 @@ function Galeria() {
               <img
                 src={flyer}
                 alt="Flyer Golden Hass"
-                className="w-full h-[500px] object-contain bg-white group-hover:scale-105 transition duration-500"
+                className="w-full h-[500px] object-cover group-hover:scale-105 transition duration-500"
               />
             </div>
 
@@ -63,7 +63,7 @@ function Galeria() {
               <img
                 src={customer}
                 alt="Customer Profile"
-                className="w-full h-[500px] object-cover group-hover:scale-105 transition duration-500"
+                className="w-full h-[500px] object-contain bg-white group-hover:scale-105 transition duration-500"
               />
             </div>
 
