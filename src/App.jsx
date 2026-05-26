@@ -11,6 +11,7 @@ import Suscripcion from "./sections/Suscripcion"
 import Origen from "./sections/Origen"
 import CTA from "./sections/CTA"
 import FAQ from "./sections/FAQ"
+import Maduracion from "./sections/Maduracion"
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Navbar />
 
       <Hero />
+
+      <Maduracion />
 
       <Semaforo />
 
