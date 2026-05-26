@@ -6,35 +6,57 @@ function Navbar() {
 
         <div className="backdrop-blur-xl bg-white/70 border border-white/40 shadow-sm rounded-3xl px-8 py-5 flex items-center justify-between">
 
+          {/* Logo */}
           <div>
-            <h1 className="text-2xl font-bold text-[#1B4332]">
-              Golden Hass
-            </h1>
+            <a href="#">
+              <h1 className="text-2xl font-bold text-[#1B4332] hover:text-green-700 transition">
+                Golden Hass
+              </h1>
+            </a>
           </div>
 
+          {/* Navegación */}
           <div className="hidden md:flex items-center gap-8 text-[#1B4332] font-medium">
 
-            <a href="#" className="hover:text-green-700 transition">
+            <a
+              href="#"
+              className="hover:text-green-700 transition"
+            >
               Inicio
             </a>
 
-            <a href="#" className="hover:text-green-700 transition">
+            <a
+              href="#maduracion"
+              className="hover:text-green-700 transition"
+            >
               Cómo funciona
             </a>
 
-            <a href="#" className="hover:text-green-700 transition">
+            <a
+              href="#suscripcion"
+              className="hover:text-green-700 transition"
+            >
               Suscripción
             </a>
 
-            <a href="#" className="hover:text-green-700 transition">
+            <a
+              href="#contacto"
+              className="hover:text-green-700 transition"
+            >
               Contacto
             </a>
 
           </div>
 
-          <button className="bg-[#2D6A4F] hover:bg-[#1B4332] text-white px-5 py-3 rounded-2xl font-semibold transition">
+          {/* Botón */}
+          <a
+            href="https://wa.me/573026304734"
+            target="_blank"
+            rel="noreferrer"
+            className="bg-[#2D6A4F] hover:bg-[#1B4332] text-white px-5 py-3 rounded-2xl font-semibold transition"
+          >
             Pedir ahora
-          </button>
+          </a>
 
         </div>
 
