@@ -1,6 +1,6 @@
 import flyer from "../assets/branding/flyer-promocional.jpeg"
 import customer from "../assets/branding/customer-profile.jpeg"
-import beneficios from "../assets/branding/beneficios-aguacate.png"
+import maduracion from "../assets/branding/maduracion-hass.png"
 
 function Galeria() {
   return (
@@ -39,7 +39,7 @@ function Galeria() {
               <img
                 src={flyer}
                 alt="Flyer Golden Hass"
-                className="w-full h-[500px] object-cover group-hover:scale-105 transition duration-500"
+                className="w-full h-[500px] object-contain bg-white group-hover:scale-105 transition duration-500"
               />
             </div>
 
@@ -85,20 +85,20 @@ function Galeria() {
 
             <div className="overflow-hidden">
               <img
-                src={beneficios}
-                alt="Beneficios"
+                src={maduracion}
+                alt="Maduración Hass"
                 className="w-full h-[500px] object-cover group-hover:scale-105 transition duration-500"
               />
             </div>
 
             <div className="p-8">
               <h3 className="text-2xl font-black text-[#163828] mb-4">
-                Nutrición inteligente
+                Maduración perfecta
               </h3>
 
               <p className="text-[#587063] leading-relaxed">
-                Alimentación saludable y organizada
-                para una rutina moderna.
+                Nuestro sistema escalonado permite
+                tener aguacates listos para cada momento de la semana.
               </p>
             </div>
 
