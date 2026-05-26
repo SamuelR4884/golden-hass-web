@@ -1,6 +1,6 @@
 function Suscripcion() {
   return (
-    <section className="bg-[#F4FAF2] py-32 px-6">
+    <section id="suscripcion" className="bg-[#F4FAF2] py-32 px-6">
 
       <div className="max-w-7xl mx-auto">
 

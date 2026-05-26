@@ -1,11 +1,12 @@
 function CTA() {
   return (
-    <section className="bg-white px-6 py-32">
+    <section id="contacto" className="bg-white px-6 py-32">
 
       <div className="max-w-6xl mx-auto">
 
         <div className="relative overflow-hidden rounded-[40px] bg-gradient-to-br from-[#1B4332] via-[#2D6A4F] to-[#40916C] px-10 py-24 text-center text-white">
 
+          {/* Efectos de fondo */}
           <div className="absolute top-0 left-0 w-full h-full opacity-20">
 
             <div className="absolute w-[400px] h-[400px] bg-white rounded-full blur-3xl -top-32 -left-32"></div>
@@ -31,15 +32,24 @@ function CTA() {
               exactamente cuando los necesitas.
             </p>
 
+            {/* Botones */}
             <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
 
-              <button className="bg-white text-[#1B4332] hover:bg-green-100 px-8 py-4 rounded-2xl font-semibold transition">
+              <a
+                href="https://wa.me/573026304734"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-[#1B4332] hover:bg-green-100 px-8 py-4 rounded-2xl font-semibold transition"
+              >
                 Pedir por WhatsApp
-              </button>
+              </a>
 
-              <button className="border border-white hover:bg-white/10 px-8 py-4 rounded-2xl font-semibold transition">
+              <a
+                href="#suscripcion"
+                className="border border-white hover:bg-white/10 px-8 py-4 rounded-2xl font-semibold transition"
+              >
                 Ver suscripciones
-              </button>
+              </a>
 
             </div>
 

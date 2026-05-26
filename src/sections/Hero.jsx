@@ -2,7 +2,8 @@ import logo from "../assets/branding/logo-golden-hass.jpeg"
 
 function Hero() {
   return (
-    <section className="px-6 pt-10">
+    <section id="inicio" className="px-6 pt-10">
+
       <div className="max-w-7xl mx-auto">
 
         <div className="relative overflow-hidden rounded-[45px] bg-gradient-to-br from-[#1F5C3F] via-[#2E7D57] to-[#57B487] px-8 py-24 text-white">
@@ -45,6 +46,7 @@ function Hero() {
               <a
                 href="https://wa.me/573026304734"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white text-[#1F5C3F] px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition duration-300 shadow-2xl"
               >
                 Pedir por WhatsApp
@@ -77,9 +79,11 @@ function Hero() {
             </div>
 
           </div>
+
         </div>
 
       </div>
+
     </section>
   )
 }
